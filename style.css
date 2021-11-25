@@ -1,7 +1,10 @@
 /*d98b79be-d4f6-46ad-b6ba-2fc58b30aba8.id.repl.co*/
 /*BACKGROUND COLOR*/
 body{
-  background-color: #EFE7E3;
+  /*background-color: #EFE7E3;*/
+
+  /*background-image: linear-gradient(#f9cfcf, #f5e7ec, #e8e5f1, #d2dae9, #d9cede);*/
+  background-image: linear-gradient(#ffdfd8, #fae2e1, #d6dbe6, #d9cede);
 }
 
 /*FRAME*/
@@ -32,8 +35,8 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   font-size: 30px;
-  color: #C2B4AB;
-  -webkit-text-stroke: 1.5px #C2B4AB;
+  color: #a39890; /*C2B4AB*/
+  -webkit-text-stroke: 1.5px #a39890;
 }
 
 ul{
@@ -178,7 +181,7 @@ a:hover{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
-  color: #C2B4AB;
+  color: #a39890;
   /*to center text*/
   text-align: center;
   margin-top: 100px;
@@ -269,7 +272,7 @@ a:hover{
   /*to add space between pic and border*/
   padding: 15px;
   /*to add a border*/
-  border: 2px solid #C2B4AB;
+  border: 2px solid #a39890;
   /*to make the picture's edge round (high px=rounder)*/
   border-radius: 50px;
 }
@@ -448,7 +451,7 @@ a:hover{
   /*to add space between pic and border*/
   padding: 15px;
   /*to add a border*/
-  border: 2px solid #C2B4AB;
+  border: 2px solid #a39890;
   /*to make the picture's edge round (high px=rounder)*/
   border-radius:25px;
 }
@@ -456,6 +459,7 @@ a:hover{
 @media screen and (max-width: 940px) and (min-width: 600px){
   .thumbnail{
     padding: 10px;
+    border-radius:40px;
   }
 }
 
