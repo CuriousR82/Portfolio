@@ -298,6 +298,7 @@ a:hover{
     margin-right: auto;
     justify-items: center;
     width: 200px;
+    margin-bottom: 25px;
     
     /*to add space between pic and border*/
     padding: 10px;
@@ -417,7 +418,7 @@ a:hover{
 @media screen and (max-width: 940px){
   .article{
     flex-direction: column;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 }
 
