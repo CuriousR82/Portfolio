@@ -1,5 +1,5 @@
 /*BACKGROUND COLOR*/
-body{
+body {
   /*background-color: #EFE7E3;*/
   background-color: #fef8f1;
 
@@ -7,8 +7,12 @@ body{
   /*background-image: linear-gradient(#ffdfd8, #fae2e1, #d6dbe6, #d9cede);*/
 }
 
+.fade {
+  opacity: 0;
+}
+
 /*FRAME*/
-.frame{
+.frame {
   margin: 30px 10%;
   display: flex;
   flex-direction: column;
@@ -23,15 +27,15 @@ body{
 */
 
 /*NAVIGATION BAR*/
-.navigator{
+.navigator {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.site-name{
-  margin:0;
+.site-name {
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   font-size: 30px;
@@ -40,25 +44,25 @@ body{
   -webkit-text-stroke: 1.5px #E57F84;
 }
 
-ul{
+ul {
   margin: 0;
 }
 
-@media screen and (max-width: 600px){
-  ul{
+@media screen and (max-width: 600px) {
+  ul {
     flex-direction: column;
     list-style-type: none;
     text-align: right;
   }
 }
 
-li{
+li {
   display: inline;
   margin: 0;
   margin-left: 15px;
 }
 
-.nav-menu{
+.nav-menu {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -66,38 +70,38 @@ li{
 
 
 
-a{
+a {
   color: #2F5061;
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: white;
   transition: 0.3s;
 }
 
 /*ONLY "WORK" PAGE*/
 /*DASHBOARD*/
-.dashboard{
+.dashboard {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
 }
 
-@media screen and (max-width: 940px) and (min-width: 600px){
-  .dashboard{
+@media screen and (max-width: 940px) and (min-width: 600px) {
+  .dashboard {
     margin-top: 75px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .dashboard{
+@media screen and (max-width: 600px) {
+  .dashboard {
     margin-top: 50px;
   }
 }
 
 /*DASHBOARD'S BIG COMMENT*/
-.big-comment{
+.big-comment {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 50px;
@@ -105,29 +109,29 @@ a:hover{
   color: #2F5061;
 }
 
-@media screen and (max-width: 940px) and (min-width: 600px){
-  .big-comment{
+@media screen and (max-width: 940px) and (min-width: 600px) {
+  .big-comment {
     font-size: 40px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .big-comment{
+@media screen and (max-width: 600px) {
+  .big-comment {
     font-size: 27px;
   }
 }
 
 /*big comment's sample*/
-.sample{
+.sample {
   background-color: pink;
   -webkit-text-stroke: 1px #2F5061;
 }
 
-.two{
+.two {
   background-color: rgb(173, 222, 227);
 }
 
-.sample:hover{
+.sample:hover {
   background-color: transparent;
   color: white;
   -webkit-text-stroke: 1px #2F5061;
@@ -135,31 +139,31 @@ a:hover{
 }
 
 /*big comment's highlight*/
-.highlight{
-  color: white; 
+.highlight {
+  color: white;
   -webkit-text-stroke: 1px #2F5061;
 }
 
-.highlight:hover{
+.highlight:hover {
   background-color: pink;
   color: #2F5061;
   transition: none;
 }
 
-.type1:hover{
+.type1:hover {
   background-color: rgb(184, 214, 0);
 }
 
-.type2:hover{
+.type2:hover {
   background-color: skyblue;
 }
 
-.type3:hover{
+.type3:hover {
   background-color: rgb(218, 153, 238);
 }
 
 /*DASHBOARD'S SMALL COMMENT*/
-.small-comment{
+.small-comment {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 15px;
@@ -167,33 +171,33 @@ a:hover{
   color: #2F5061;
 }
 
-@media screen and (max-width: 940px) and (min-width: 600px){
-  .small-comment{
+@media screen and (max-width: 940px) and (min-width: 600px) {
+  .small-comment {
     font-size: 13.5px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .small-comment{
+@media screen and (max-width: 600px) {
+  .small-comment {
     font-size: 12px;
   }
 }
 
 /*RECENT WORKS*/
-.recent-menu{
+.recent-menu {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
   /*color: #a39890;*/
-  color:#4297A0;
+  color: #4297A0;
   /*to center text*/
   text-align: center;
   margin-top: 100px;
   margin-bottom: 75px;
 }
 
-@media screen and (max-width: 600px){
-  .recent-menu{
+@media screen and (max-width: 600px) {
+  .recent-menu {
     font-size: 25px;
     margin-top: 75px;
     margin-bottom: 50px;
@@ -201,7 +205,7 @@ a:hover{
 }
 
 /*FOOTER*/
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -212,31 +216,31 @@ a:hover{
 }
 
 /*FOOTER'S CONTACT*/
-.contact{
+.contact {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 45px;
-  color: #2F5061; 
+  color: #2F5061;
   -webkit-text-stroke: 2px #2F5061;
   margin-bottom: 20px;
   border-bottom: 2px solid #2F5061;
 }
 
-@media screen and (min-width: 940px){
-  .contact{
+@media screen and (min-width: 940px) {
+  .contact {
     margin-top: 100px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .contact{
+@media screen and (max-width: 600px) {
+  .contact {
     font-size: 35px;
     -webkit-text-stroke: 1px #2F5061;
   }
 }
 
-@media screen and (min-width: 600px){
-  .discord{
+@media screen and (min-width: 600px) {
+  .discord {
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -244,7 +248,7 @@ a:hover{
 
 /*ONLY "INFO" PAGE*/
 /*PROFILE*/
-.profile-section{
+.profile-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -253,59 +257,60 @@ a:hover{
   margin-bottom: 120px;
 }
 
-@media screen and (max-width: 940px) and (min-width: 600px){
-  .profile-section{
+@media screen and (max-width: 940px) and (min-width: 600px) {
+  .profile-section {
     margin-top: 75px;
     flex-direction: column;
     margin-bottom: 0px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .profile-section{
+@media screen and (max-width: 600px) {
+  .profile-section {
     margin-top: 50px;
     flex-direction: column;
     margin-bottom: 0px;
   }
 }
 
-.profile-picture{
+.profile-picture {
   width: 400px;
   margin-right: 60px;
-  
+
   /*to add space between pic and border*/
   padding: 15px;
   /*to add a border*/
-  border: 2px solid #E57F84; /*#a39890*/
+  border: 2px solid #E57F84;
+  /*#a39890*/
   /*to make the picture's edge round (high px=rounder)*/
   border-radius: 50px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 940px){
-  .profile-picture{
+@media screen and (min-width: 600px) and (max-width: 940px) {
+  .profile-picture {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-    
+
     /*to add space between pic and border*/
     padding: 12.5px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .profile-picture{
+@media screen and (max-width: 600px) {
+  .profile-picture {
     margin-left: auto;
     margin-right: auto;
     justify-items: center;
     width: 200px;
     margin-bottom: 25px;
-    
+
     /*to add space between pic and border*/
     padding: 10px;
   }
 }
 
-.about-menu{
+.about-menu {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
@@ -313,21 +318,21 @@ a:hover{
   color: #2F5061;
 }
 
-@media screen and (min-width: 600px) and (max-width: 940px){
-  .about-menu{
+@media screen and (min-width: 600px) and (max-width: 940px) {
+  .about-menu {
     margin-top: 30px;
     font-size: 35px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .about-menu{
+@media screen and (max-width: 600px) {
+  .about-menu {
     margin-top: 20px;
     font-size: 30px;
   }
 }
 
-.paragraph{
+.paragraph {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 16px;
@@ -335,13 +340,13 @@ a:hover{
   color: #2F5061;
 }
 
-@media screen and (max-width: 600px){
-  .paragraph{
+@media screen and (max-width: 600px) {
+  .paragraph {
     font-size: 15px;
   }
 }
 
-.capability-menu{
+.capability-menu {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
@@ -350,20 +355,20 @@ a:hover{
   color: #2F5061;
 }
 
-@media screen and (min-width: 600px) and (max-width: 940px){
-  .capability-menu{
+@media screen and (min-width: 600px) and (max-width: 940px) {
+  .capability-menu {
     font-size: 30px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .capability-menu{
+@media screen and (max-width: 600px) {
+  .capability-menu {
     font-size: 25px;
     margin-top: 60px;
   }
 }
 
-.capability{
+.capability {
   font-family: 'Montserrat', sens-serif;
   font-weight: 400;
   font-size: 20px;
@@ -375,16 +380,16 @@ a:hover{
   color: #2F5061;
 }
 
-@media screen and (min-width: 600px) and (max-width: 940px){
-  .capability{
+@media screen and (min-width: 600px) and (max-width: 940px) {
+  .capability {
     margin-top: 17.5px;
     font-size: 18px;
     margin-bottom: 80px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .capability{
+@media screen and (max-width: 600px) {
+  .capability {
     margin-top: 15px;
     font-size: 16px;
     /*to space spaces of points*/
@@ -395,19 +400,19 @@ a:hover{
 
 
 /*FOOTER COMMENT*/
-.footer-comment{
+.footer-comment {
   margin-top: 0px;
   text-align: center;
   color: #2F5061;
 }
 
 /*RECENT WORKS*/
-.recent-works{
+.recent-works {
   display: flex;
   flex-direction: column;
 }
 
-.article{
+.article {
   display: flex;
   flex-direction: row;
   margin-bottom: 120px;
@@ -415,47 +420,47 @@ a:hover{
   align-items: center;
 }
 
-@media screen and (max-width: 940px){
-  .article{
+@media screen and (max-width: 940px) {
+  .article {
     flex-direction: column;
     margin-bottom: 60px;
   }
 }
 
-@media screen and (min-width: 940px){
-  .article{
+@media screen and (min-width: 940px) {
+  .article {
     flex-direction: row;
     margin-bottom: 120px;
   }
 }
 
 /*small screen*/
-@media screen and (max-width: 940px){
-  .artiBig{
+@media screen and (max-width: 940px) {
+  .artiBig {
     display: none;
   }
 }
 
-@media screen and (max-width: 940px){
-  .artiSmall{
+@media screen and (max-width: 940px) {
+  .artiSmall {
     display: flex;
   }
 }
 
 /*big screen*/
-@media screen and (min-width: 940px){
-  .artiBig{
+@media screen and (min-width: 940px) {
+  .artiBig {
     display: flex;
   }
 }
 
-@media screen and (min-width: 940px){
-  .artiSmall{
+@media screen and (min-width: 940px) {
+  .artiSmall {
     display: none;
   }
 }
 
-.thumbnail{
+.thumbnail {
   width: 500px;
 
   /*to add space between pic and border*/
@@ -463,34 +468,34 @@ a:hover{
   /*to add a border*/
   border: 2px solid #E57F84;
   /*to make the picture's edge round (high px=rounder)*/
-  border-radius:25px;
+  border-radius: 25px;
 }
 
-@media screen and (max-width: 940px) and (min-width: 600px){
-  .thumbnail{
+@media screen and (max-width: 940px) and (min-width: 600px) {
+  .thumbnail {
     padding: 10px;
-    border-radius:40px;
+    border-radius: 40px;
   }
 }
 
-@media screen and (max-width: 600px){
-  .thumbnail{
+@media screen and (max-width: 600px) {
+  .thumbnail {
     width: 325px;
     padding: 5px;
   }
 }
 
-.article-info{
+.article-info {
   margin: 0px 40px;
 }
 
-@media screen and (max-width: 940px){
-  .article-info{
+@media screen and (max-width: 940px) {
+  .article-info {
     margin: 30px 10px;
   }
 }
 
-.article-name{
+.article-name {
   font-family: 'Montserrat', sans-serif;
   color: #2F5061;
   font-size: 30px;
@@ -498,27 +503,27 @@ a:hover{
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px){
-  .article-name{
+@media screen and (max-width: 600px) {
+  .article-name {
     font-size: 20px;
     margin-bottom: 0px;
   }
 }
 
-.article-comment{
+.article-comment {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 100;
   color: #2F5061;
 }
 
-@media screen and (max-width: 600px){
-  .article-comment{
+@media screen and (max-width: 600px) {
+  .article-comment {
     font-size: 14px;
   }
 }
 
-.more{
+.more {
   width: content;
   height: content;
   font-family: 'Montserrat', sans-serif;
