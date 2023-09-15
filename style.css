@@ -145,7 +145,7 @@ a:hover {
 }
 
 .highlight:hover {
-  background-color: pink;
+  background-color: #ffc2cc;
   color: #2F5061;
   transition: none;
 }
