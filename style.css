@@ -215,6 +215,11 @@ a:hover {
   margin-bottom: 25px;
 }
 
+.footer div {
+  display: flex;
+  gap: 6px;
+}
+
 /*FOOTER'S CONTACT*/
 .contact {
   font-family: 'Montserrat', sans-serif;
